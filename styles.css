@@ -1,5 +1,161 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+   text-align: center; 
+   background-color: blanchedalmond;
+   padding: 10px;
+}
+.footer {
+   text-align: center; 
+   background-color: rgb(68, 66, 64);
+   padding: 10px;
+   color: white;
 }
 
-.title
+body.home {
+    background-color: rgb(252, 248, 244);
+}
+.content {
+    margin: 0 auto;
+    width: 450px;
+    background-color: rgb(109, 32, 32);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.jollof {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+    font-size: large;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 0;
+}
+.white {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+    font-size: large;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 0;
+
+}
+.fried {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+    font-size: large;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 0;
+}
+
+.okro {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+    font-size: large;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 0;
+}
+
+.egusi {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+    font-size: large;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 0;
+}
+#j-rice {
+    padding: 10px;
+}
+.container.j-rice {
+    background-color: bisque;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 150px;
+    padding-left: 60px;
+    padding-top: 0px;
+
+}
+.title.j-rice {
+    margin: 10px 10px 10px;
+    display: inline-block;
+     background-color: bisque;
+    color: black;
+    font-size: 40px;
+    margin: 0px 0px 0px -2px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    
+
+
+}
+
+
+span.title.odin {
+    background-color: rgb(87, 20, 20);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 90px 10px 0px ;
+}
+#j-rice-img {
+    padding-left: 60px;
+    width: 800px;
+    height: 400px;
+    margin-bottom: -205px;
+    display: inline-block;
+}
+div.description {
+    display: inline-block;
+    background-color: rgb(87, 20, 20);
+    color: white;
+    height: 400px;
+    width: 400px;
+    margin-top: 0px;
+    margin-left: -4px;
+    margin-bottom: 50px;
+    padding: 10px;
+
+}
+div.img-description {
+    height: 400px;
+    margin-bottom: 10px;
+}
+    
+h3.ingridients {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px; 
+}
+div.ingridients {
+    width: 300px;
+    margin-bottom: 30px;
+}
+h3.steps {
+    border-bottom: 2px solid black;
+     margin-bottom: 10px; 
+}
+div.steps {
+    width: 300px;
+}
