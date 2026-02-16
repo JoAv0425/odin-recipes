@@ -144,7 +144,8 @@ div.description {
     color: white;
     height: 400px;
     width: 400px;
-    padding: 10px;
+    padding: 15px;
+    font-size: 21px;
 
 }
 div.img-description {
