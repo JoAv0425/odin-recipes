@@ -33,6 +33,19 @@ body.home {
     flex-direction: column;
 
 }
+.recipes-container {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.recipes-header {
+    display: flex;
+    background-color: bisque;
+}
 
 .jollof {
     background-color: aqua;
@@ -82,12 +95,9 @@ body.home {
     padding: 10px 20px;
     border: 0;
 }
-#j-rice {
-    padding: 10px;
-}
+
 .container.j-rice {
     background-color: bisque;
-    margin: 10px 0px 0px 0px;
     width: 100%;
     height: 150px;
     padding-left: 60px;
@@ -95,22 +105,22 @@ body.home {
 
 }
 .title.j-rice {
-    margin: 10px 10px 10px;
-    display: inline-block;
-     background-color: bisque;
+    display: flex;
+    background-color: bisque;
     color: black;
     font-size: 40px;
-    margin: 0px 0px 0px -2px;
+    margin: 0px;
     padding: 0px;
     width: auto;
-    height: auto;
+    height: 150px;
+    justify-content: flex-end;
     
 
 
 }
 
 
-span.title.odin {
+.title.odin {
     background-color: rgb(87, 20, 20);
     color: white;
     text-align: center;
@@ -133,15 +143,13 @@ div.description {
     color: white;
     height: 400px;
     width: 400px;
-    margin-top: 0px;
-    margin-left: -4px;
-    margin-bottom: 50px;
     padding: 10px;
 
 }
 div.img-description {
     height: 400px;
     margin-bottom: 10px;
+    display: flex;
 }
     
 h3.ingridients {
