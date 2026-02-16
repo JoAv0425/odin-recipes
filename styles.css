@@ -45,6 +45,8 @@ body.home {
 .recipes-header {
     display: flex;
     background-color: bisque;
+    height: 110px;
+    gap: 10px;
 }
 
 .jollof {
@@ -105,15 +107,14 @@ body.home {
 
 }
 .title.j-rice {
-    display: flex;
     background-color: bisque;
     color: black;
-    font-size: 40px;
+    font-size: 25px;
     margin: 0px;
-    padding: 0px;
+    padding: 57px 0 0 0;
     width: auto;
-    height: 150px;
-    justify-content: flex-end;
+    height: 110px;
+    
     
 
 
@@ -124,11 +125,11 @@ body.home {
     background-color: rgb(87, 20, 20);
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     display: inline-block;
-    width: 150px;
-    height: 150px;
-    padding: 90px 10px 0px ;
+    width: 110px;
+    height: 110px;
+    padding: 55px 0 0 0;
 }
 #j-rice-img {
     padding-left: 60px;
