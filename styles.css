@@ -22,35 +22,6 @@ div.container {
    color: white;
 }
 
-body.home {
-    background-color: rgb(252, 248, 244);
-    
-}
-.content {
-    margin: 0 auto;
-    width: 450px;
-    background-color: rgb(109, 32, 32);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-
-}
-.recipes-container {
-    max-width: 1300px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-
-}
-.recipes-header {
-    display: flex;
-    background-color: bisque;
-    height: 110px;
-    gap: 10px;
-}
-
 .jollof {
     background-color: aqua;
     display: block;
@@ -100,15 +71,45 @@ body.home {
     border: 0;
 }
 
-.container.j-rice {
-    background-color: bisque;
-    width: 100%;
-    height: 150px;
-    padding-left: 60px;
-    padding-top: 0px;
+
+body.home {
+    background-color: rgb(252, 248, 244);
+    
+}
+.content {
+    margin: 0 auto;
+    width: 450px;
+    background-color: rgb(109, 32, 32);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 
 }
-.title.j-rice {
+.recipes-container {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.recipes-header {
+    max-width: 1300px;
+    display: flex;
+    background-color: bisque;
+    height: 110px;
+    gap: 10px;
+}
+
+div.img-description {
+    max-width: 1300px;
+    height: 400px;
+    margin: 0 0 10px 50px ;
+    display: flex;
+
+}
+
+.title.food {
     background-color: bisque;
     color: black;
     font-size: 25px;
@@ -116,12 +117,7 @@ body.home {
     padding: 75px 0 0 0;
     width: auto;
     height: 110px;
-    
-    
-
-
 }
-
 
 .title.odin {
     background-color: rgb(87, 20, 20);
@@ -133,12 +129,10 @@ body.home {
     height: 110px;
     padding: 55px 0 0 0;
 }
-#j-rice-img {
-    padding-left: 60px;
+.food-img {
     width: 800px;
     height: 400px;
-    margin-bottom: -205px;
-    display: inline-block;
+  
 }
 div.description {
     display: inline-block;
@@ -150,18 +144,18 @@ div.description {
     font-size: 21px;
 
 }
-div.img-description {
-    height: 400px;
-    margin-bottom: 10px;
-    display: flex;
-}
+
     
 h3.ingridients {
     border-bottom: 2px solid black;
     margin-bottom: 10px; 
 }
+.ingridients-1 {
+   
+}
 ul {
     margin-left: 20px;
+    margin-bottom: 10px; 
 }
 ol {
     margin-left: 20px; 
