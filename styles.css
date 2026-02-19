@@ -8,6 +8,7 @@ div.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 .header {
    text-align: center; 
@@ -23,6 +24,7 @@ div.container {
 
 body.home {
     background-color: rgb(252, 248, 244);
+    
 }
 .content {
     margin: 0 auto;
@@ -111,7 +113,7 @@ body.home {
     color: black;
     font-size: 25px;
     margin: 0px;
-    padding: 57px 0 0 0;
+    padding: 75px 0 0 0;
     width: auto;
     height: 110px;
     
@@ -158,13 +160,19 @@ h3.ingridients {
     border-bottom: 2px solid black;
     margin-bottom: 10px; 
 }
+ul {
+    margin-left: 20px;
+}
+ol {
+    margin-left: 20px; 
+}
 div.ingridients {
     width: 300px;
     margin-bottom: 30px;
 }
 h3.steps {
     border-bottom: 2px solid black;
-     margin-bottom: 10px; 
+    margin-bottom: 10px; 
 }
 div.steps {
     width: 300px;
